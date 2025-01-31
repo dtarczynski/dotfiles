@@ -1,9 +1,12 @@
 #Edit .zshrc
 #source ~/.zsh/custom-aliases.zsh
-#alias login-nuget='aws_codeartifact_login'
+#alias nuget-login='aws_codeartifact_login'
+#alias credit='credit'
 
+# ****************************************
 # Definition for custom-aliases.zsh
-#
+# ****************************************
+
 # AWS CodArtifact login function for NuGet
 login-nuget() {
     export AWS_ENDPOINT_URL=""
